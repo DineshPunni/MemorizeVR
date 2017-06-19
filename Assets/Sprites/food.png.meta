@@ -1,19 +1,24 @@
 fileFormatVersion: 2
-guid: a3abce8f2d7d5b64aa93b531b4002874
-timeCreated: 1497643467
+guid: 9c7918faaae5a0143826afd9f87de8e0
+timeCreated: 1497644887
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Numbers_0
-    21300002: Numbers_1
-    21300004: Numbers_2
-    21300006: Numbers_3
-    21300008: Numbers_4
-    21300010: Numbers_5
-    21300012: Numbers_6
-    21300014: Numbers_7
-    21300016: Numbers_8
-    21300018: Numbers_9
+    21300000: food_0
+    21300002: food_1
+    21300004: food_2
+    21300006: food_3
+    21300008: food_4
+    21300010: food_5
+    21300012: food_6
+    21300014: food_7
+    21300016: food_8
+    21300018: food_9
+    21300020: food_10
+    21300022: food_11
+    21300024: food_12
+    21300026: food_13
+    21300028: food_14
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -96,130 +101,195 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Numbers_0
+      name: food_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 323
+        width: 180
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 330
+        width: 180
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 338
+        width: 149
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_3
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 346
+        width: 155
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_4
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 357
+        width: 155
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 162
+        width: 182
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 161
+        width: 174
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 127
+        width: 159
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_8
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 127
+        width: 180
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_9
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 135
+        width: 138
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 110
-        width: 108
-        height: 110
+        y: 1.3333282
+        width: 179.8
+        height: 168.66667
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Numbers_1
+      name: food_11
       rect:
         serializedVersion: 2
-        x: 108
-        y: 110
-        width: 108
-        height: 110
+        x: 179
+        y: 1
+        width: 142
+        height: 152
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Numbers_2
+      name: food_12
       rect:
         serializedVersion: 2
-        x: 216
-        y: 110
-        width: 108
-        height: 110
+        x: 358
+        y: 1
+        width: 151
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Numbers_3
+      name: food_13
       rect:
         serializedVersion: 2
-        x: 324
-        y: 110
-        width: 108
-        height: 110
+        x: 537
+        y: 1
+        width: 155
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Numbers_4
+      name: food_14
       rect:
         serializedVersion: 2
-        x: 432
-        y: 110
-        width: 108
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Numbers_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 108
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Numbers_6
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 0
-        width: 108
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Numbers_7
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 0
-        width: 108
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Numbers_8
-      rect:
-        serializedVersion: 2
-        x: 324
-        y: 0
-        width: 108
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Numbers_9
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 0
-        width: 108
-        height: 110
+        x: 748
+        y: 1
+        width: 148
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
