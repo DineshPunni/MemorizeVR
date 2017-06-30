@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class CardsManager : MonoBehaviour {
 
-	public List<Sprite> cardImages;
 	public GameObject cardMesh;
+	public Texture backside;
+	public List<Texture> frontsides;
 
-	// Use this for initialization
+	List<GameObject> cards = new List<GameObject>();
+	
+
 	void Start () {
 
 		InitializeCardMeshes();
+		PutPicture();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
 	}
@@ -23,7 +26,18 @@ public class CardsManager : MonoBehaviour {
 	{
 		for (int i = 0; i < 5; i++)
 		{
-			Instantiate(cardMesh, new Vector3(i * 1.3f, 2, 2), Quaternion.identity);
+			GameObject tmp = Instantiate(cardMesh, new Vector3((i * 1.5f)-3f, 1, 5), Quaternion.identity);
+			tmp.transform.Rotate(new Vector3(0, 180, 0));
+			cards.Add(tmp);
+		}
+	}
+
+
+	void PutPicture()
+	{
+		for (int i = 0; i < cards.Count; i++)
+		{
+			cards[i].transform.GetChild(0).GetComponent<MeshRenderer>().material.mainTexture = frontsides[i];
 		}
 	}
 }
