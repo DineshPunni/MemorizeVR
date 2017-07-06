@@ -9,10 +9,12 @@ public class CubeController : MonoBehaviour {
 	public float z;
 	public float speed;
 
+	public GameObject GameOverPrefab;
+
 
 	public void TeleportCube()
 	{
-		float newX = Random.Range(-x, x);
+		float newX = Random.Range(-x, x); 
 		float newY = Random.Range(0, y);
 		float newZ = Random.Range(-z, z);
 
@@ -32,6 +34,15 @@ public class CubeController : MonoBehaviour {
 		if (other.tag == ("Player"))
 			Debug.Log("killed you");
 
-		gameObject.SetActive(false);
+		SpawnGameOverCanvas();
+		Destroy(gameObject);
+	}
+
+	void SpawnGameOverCanvas()
+	{
+		GameObject tmp = Instantiate(GameOverPrefab, transform.position, Quaternion.identity);
+		tmp.transform.LookAt(Camera.main.transform);
+		tmp.transform.Rotate(new Vector3(0, 180, 0));
+		tmp.transform.Translate(Vector3.forward * 5);
 	}
 }
