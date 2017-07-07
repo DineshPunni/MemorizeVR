@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour {
 
 	public GameObject ballPrefab;
+	public Transform shootOffset;
 	public float power;
 
 
@@ -22,7 +23,7 @@ public class PlayerControl : MonoBehaviour {
 
 	void ThrowBall()
 	{
-		GameObject tmpBall = Instantiate(ballPrefab, transform.position, transform.rotation);
-		tmpBall.GetComponent<Rigidbody>().velocity = Vector3.forward * power;
+		GameObject tmpBall = Instantiate(ballPrefab, shootOffset.position, shootOffset.transform.rotation);
+		tmpBall.GetComponent<Rigidbody>().velocity = shootOffset.forward * power;
 	}
 }
