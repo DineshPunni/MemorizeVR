@@ -41,6 +41,7 @@ public class EnemyControl : MonoBehaviour {
 		}
 		if(other.tag == ("Ball"))
 		{
+			Destroy(other.gameObject);
 			TeleportEnemy();
 			if (OnEnemyDied != null)
 				OnEnemyDied();
