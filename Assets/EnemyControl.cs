@@ -13,6 +13,7 @@ public class EnemyControl : MonoBehaviour {
 
 
 	public static Action OnGameOver;
+	public static Action OnEnemyDied;
 
 	public void TeleportEnemy()
 	{
@@ -41,6 +42,8 @@ public class EnemyControl : MonoBehaviour {
 		if(other.tag == ("Ball"))
 		{
 			TeleportEnemy();
+			if (OnEnemyDied != null)
+				OnEnemyDied();
 		}
 	}
 

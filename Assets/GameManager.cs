@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
+	public static Action OnRestart;
 
 	public GameObject GameOverPrefab;
 	GameObject enemy;
@@ -35,6 +36,9 @@ public class GameManager : MonoBehaviour {
 
 	public void Restart()
 	{
+		if (OnRestart != null)
+			OnRestart();
+
 		GameOverPrefab.SetActive(false);
 		//Instantiate(enemy, new Vector3(0, 0, 5), Quaternion.identity);
 		enemy.SetActive(true);
